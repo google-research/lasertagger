@@ -1,0 +1,4 @@
+This directory contains Transformer related code files. These are copied from:
+  https://github.com/tensorflow/models/tree/master/official/transformer
+to make it possible to install all LaserTagger dependencies with pip (the
+official Transformer implementation doesn't support pip installation).
