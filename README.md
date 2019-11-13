@@ -42,6 +42,8 @@ sh run_wikisplit_experiment.sh
 
 after setting the paths in the beginning of the script.
 
+**Note:** Text should be tokenized with spaces separating the tokens before applying LaserTagger.
+
 ### 1. Phrase Vocabulary Optimization
 
 Download the [WikiSplit](https://github.com/google-research-datasets/wiki-split)
