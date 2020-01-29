@@ -100,9 +100,9 @@ Model hyperparameters are specified in [lasertagger_config.json](configs/laserta
 `bert_config.json` which comes with the zipped pretrained BERT model.
 
 Note that if you want to **switch
-from using LaserTagger_AR to LaserTagger_FF**, you should set
-`"use_t2t_decoder": false` in the LaserTagger config. The former is usually more
-accurate, whereas the latter runs inference faster.
+from using LaserTagger_FF to LaserTagger_AR**, you should set
+`"use_t2t_decoder": true` in the LaserTagger config. The latter is usually more
+accurate, whereas the former runs inference faster.
 
 Train the model on CPU/GPU.
 
