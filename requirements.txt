@@ -1,4 +1,4 @@
-tensorflow==1.15.2  # CPU Version of TensorFlow.
+tensorflow==2.11.1  # CPU Version of TensorFlow.
 # tensorflow-gpu==1.15.2  # GPU version of TensorFlow.
 absl-py==0.8.1
 astor==0.8.0
