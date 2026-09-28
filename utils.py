@@ -105,12 +105,12 @@ def read_label_map(path):
       for tag in f:
         tag = tag.strip()
         if tag:
-          label_map[tag] = len(label_map)
-        else:
           if empty_line_encountered:
             raise ValueError(
                 'There should be no empty lines in the middle of the label map '
                 'file.'
             )
+          label_map[tag] = len(label_map)
+        else:
           empty_line_encountered = True
       return label_map
